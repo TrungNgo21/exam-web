@@ -1,0 +1,26 @@
+table tbody tr:nth-child(2n+1){
+    background-color: aqua;
+}
+
+table tbody tr:nth-child(2n){
+    background-color: beige;
+}
+
+footer {
+    display: flex;
+}
+
+footer a {
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+footer a:hover{
+    font-weight: bold;
+}
+
+@media screen and (max-width:1000px){
+    footer {
+        flex-direction: column;
+    }
+}
